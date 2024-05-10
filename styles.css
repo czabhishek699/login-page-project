@@ -1,0 +1,33 @@
+body {
+    background: linear-gradient(300deg, #f43f5e, #ec008c, #cc0eb5, #9b2fcc, #b407e3);
+    background-size: 1800% 1800%;
+    animation: gradient 15s ease infinite;
+  }
+  .send-code{
+    background-color: rgb(59, 130, 246);
+    border: 2px solid rgb(59, 130, 246);
+    border-radius: 5px;
+    padding: 1%;
+    margin-top: 3%;
+    margin-right:2% ;
+    margin-left: 2%;
+    color: white;
+    transition: 0.4s;
+  }
+  .send-code:hover{
+    
+   background-color: white;
+   color:rgb(59, 130, 246);
+  }
+  @keyframes gradient {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+
+}
